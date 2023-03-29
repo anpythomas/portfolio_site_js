@@ -278,6 +278,10 @@ input, select, textarea {
 				width: 100% !important;
 			}
 
+            .flexContainer{
+                display: none;
+            }
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2007,6 +2011,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+    section.special .olSectionThree {
+        text-align: left;
+    }
+
 	header p {
 		color: #999;
 		margin: 0 0 1.5em 0;
@@ -3510,3 +3518,31 @@ input, select, textarea {
 			}
 
 	}
+
+
+/* My Styling */
+#four {
+    text-align: left;
+}
+
+.flexContainer {
+    display: flex;
+    margin: 0 10%;
+}
+
+.flexChild2{
+    text-align: center;
+}
+
+.andyImg{
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+@media (max-width: 980px) {
+    .flexContainer{
+        display: block;
+        margin: 0 .25%;
+    }
+}
